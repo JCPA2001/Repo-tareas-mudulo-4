@@ -1,18 +1,15 @@
 import './App.css'
-import Details from './componentes/Detalles/Details'
-import Imagen from './componentes/imagen/Imagen'
-import Titulo from './componentes/titulo/Titulo'
+import CharacterCard from './componentes/characterChard/CharacterCard'
 
 function App() {
 
-
+  
   return (
 
     <div>
-      <Titulo text="Titulo León"></Titulo>
-      <Imagen ruta="./Leon.webp"></Imagen>
-      <Details genero="Masculino" status="Vivo"></Details>
-
+      <CharacterCard img="Leon.webp" titulo="Leon 1" genero="masculino" Detalles="felino"/>
+      <CharacterCard img="Leon.webp" titulo="Leon 2" genero="femenino" Detalles="felina"/>
+      <CharacterCard img="Leon.webp" titulo="Leon 3" genero="femenino" Detalles="felina"/>
     </div>
 
 
