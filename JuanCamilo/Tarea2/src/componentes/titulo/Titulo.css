@@ -1,0 +1,15 @@
+.tituloLeon p {
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    font-size: 50px; /* Tamaño de la fuente */
+    color: #f58f0a; /* Color del texto */
+
+    text-align: center; /* Alineación centrada */
+    margin-top: 20px; /* Espaciado superior */
+
+    margin-bottom: 20px; /* Espaciado inferior */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Transformación a mayúsculas */
+    background-color: #550b0b; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+   
+}
