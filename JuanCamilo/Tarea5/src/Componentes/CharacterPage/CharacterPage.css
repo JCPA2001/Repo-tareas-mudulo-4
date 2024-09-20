@@ -1,0 +1,55 @@
+
+
+
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  background-color: #e0851d;
+  border: 7px solid blueviolet;
+  gap: 2px;
+  padding: 10px;
+  max-width: 1700px;
+  height: 1100px;
+ 
+}
+
+/* Tarjetas de personajes */
+.character-card {
+  background-color: #67a85a;
+  border: 1px solid #070101;
+  border-radius: 10px;
+  text-align: center;
+  color: #00ff00;
+  width: 230px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 10px;
+  height: 300px;
+}
+
+.character-card h1 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.character-card p {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #3e3e3e;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: auto; /* Empuja los botones hacia abajo */
+}
